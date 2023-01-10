@@ -1,0 +1,180 @@
+.Home .lander {
+  padding: 80px 0;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.input-custom{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,1)!important;
+  width: 60%;
+  max-width: 30rem;
+}
+
+.submit-custom {
+  color: rgb(20, 36, 131) !important;
+}
+
+
+body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../Images/Alphorn.jpg);
+}
+
+@media (min-width: 640px) and (max-width: 1280px) {
+  body {
+    background-image: url(../Images/Alphorn.jpg);
+  }
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  margin: 5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: rgb(20, 36, 131);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  padding-bottom: 1rem;
+}
+
+.container {
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 1) !important;
+  width: 80%;
+  margin: 10rem;
+  padding: 2rem;
+}
+
+.strong {
+  color: black;
+  font-style: italic;
+}
+
+.main {
+}
+
+.NotFound {
+  padding-top: 100px;
+}
+
+.article {
+  text-align: left !important;
+  text-indent: 50px;
+}
+
+.heading {
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.text {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+  font-size: large;
+}
+
+.line {
+  color: black;
+  background-color: black;
+  height: 5;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .info {
+    margin: 10rem;
+  }
+
+  .input-custom{
+    width: 60%;
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .info {
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+  .input-custom{
+    width: 60%;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .info {
+    margin: 1rem;
+  }
+
+  .input-custom{
+    width: 100%;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    color: black;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .info {
+    margin: 1rem;
+  }
+
+  .input-custom{
+    width: 100%;
+  }
+}
+
+
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .info {
+    margin: 1rem;
+  }
+
+  .input-custom{
+    width: 100%;
+  }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  .info {
+    margin: 1rem;
+  }
+
+  .input-custom{
+    width: 100%;
+  }
+}
