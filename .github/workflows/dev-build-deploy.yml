@@ -7,7 +7,7 @@ on:
       - release
 jobs:
   # To build the project
-  build-tambola:
+  build-helmutfricker:
     runs-on: ubuntu-latest
     steps:
       - name: Checking out code
