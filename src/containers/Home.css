@@ -79,14 +79,14 @@ body {
 }
 
 .heading {
-  font-size: xx-large;
+  font-size: xxx-large;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .text {
   --bs-text-opacity: 1;
   color: #6c757d !important;
-  font-size: large;
+  font-size: xx-large;
 }
 
 .line {
@@ -98,6 +98,10 @@ body {
 .video {
   aspect-ratio: 16 / 9;
   width: 100%;
+}
+
+#headerimg {
+  margin-bottom: 1rem;
 }
 
 /* For Desktop View */
