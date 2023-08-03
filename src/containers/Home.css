@@ -89,11 +89,20 @@ body {
   font-size: xx-large;
 }
 
+.bold{
+  font-weight: bold;
+}
+
 .line {
   color: black;
   background-color: black;
   height: 5;
 }
+
+.performanceList {
+  text-align: left;
+}
+
 
 .video {
   aspect-ratio: 16 / 9;
