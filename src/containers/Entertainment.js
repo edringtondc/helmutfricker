@@ -66,13 +66,13 @@ export default function Entertainment() {
               <h4 className="text">Vail Village September 15-17, 2023</h4>
               <h5>
                 <p>
-                  <span className="bold">Friday 9/8</span>: 4-7pm
+                  <span className="bold">Friday 9/15</span>: 4-7pm
                 </p>
                 <p>
-                  <span className="bold">Saturday 9/9</span>: 12:30-3:30pm
+                  <span className="bold">Saturday 9/16</span>: 12:30-3:30pm
                 </p>
                 <p>
-                  <span className="bold">Sunday 9/10</span>: 12:30-3:30pm
+                  <span className="bold">Sunday 9/17</span>: 12:30-3:30pm
                 </p>
               </h5>
             </div>
