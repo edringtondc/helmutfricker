@@ -30,49 +30,34 @@ export default function Entertainment() {
             <div className="performanceList">
               <h3 className="title">Beaver Creek Plaza:</h3>
 
-              <h4 className="text">June 17th thru September 16th 2023</h4>
+              <h4 className="text">June 16th thru September 14th 2024</h4>
               <h3>
                 Catch Helmut every Wednesday, Friday and Sunday from 1pm-3pm
+                <br />
+                (Excluding August 2nd, 4th and 30th and September 1st)
               </h3>
-
-              <br />
               <h3 className="title">Beaver Creek Oktoberfest:</h3>
-              <h4 className="text">September 1-3, 2023</h4>
+              <h4 className="text">August 30th - September 1st, 2024</h4>
               <h5>
                 <p>
-                  <span className="bold">Friday 9/1</span>: 4pm Keg Tapping
+                  <span className="bold">Times TBD</span>
                 </p>
-                <p className="bold">Saturday & Sunday: </p>
-                <p>Main Stage at 12:30pm -1:30pm</p>
-                <p>Mountain Side Stage (Chophouse lawn) at 3:00-3:45pm</p>
+
               </h5>
 
-              <br />
               <h3 className="title">Vail Oktoberfest:</h3>
-              <h4 className="text">Lionshead September 8-10, 2023</h4>
+              <h4 className="text">Lionshead September 6-8, 2024</h4>
               <h5>
                 <p>
-                  <span className="bold">Friday 9/8</span>: 4-7pm
-                </p>
-                <p>
-                  <span className="bold">Saturday 9/9</span>: 12:30-3:30pm
-                </p>
-                <p>
-                  <span className="bold">Sunday 9/10</span>: 12:30-3:30pm
+                  <span className="bold">Times TBD</span>
                 </p>
               </h5>
 
               <h3 className="title">Vail Oktoberfest:</h3>
-              <h4 className="text">Vail Village September 15-17, 2023</h4>
+              <h4 className="text">Vail Village September 13-15, 2024</h4>
               <h5>
                 <p>
-                  <span className="bold">Friday 9/15</span>: 4-7pm
-                </p>
-                <p>
-                  <span className="bold">Saturday 9/16</span>: 12:30-3:30pm
-                </p>
-                <p>
-                  <span className="bold">Sunday 9/17</span>: 12:30-3:30pm
+                  <span className="bold">Times TBD</span>
                 </p>
               </h5>
             </div>
